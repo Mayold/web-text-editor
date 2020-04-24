@@ -1,0 +1,61 @@
+*, *::before, *::after {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+body {
+   background-color: rgb(195, 231, 250);
+   font-family: Helvetica, sans-serif;
+}
+
+p, h1, h2, h3, h4 {
+   min-height: 16px;
+}
+
+#app {
+   width: 60%;
+   margin: 5em auto;
+   display: flex;
+}
+
+/* EDITOR */
+
+.editor {
+   width: 100%;
+   min-height: 600px;
+   padding: 16px;
+
+   background-color: white;
+   border-radius: 5px;
+   outline: none;
+
+   box-shadow: 0 6px #2b32386b;
+   transition: border 0.5s ease;
+}
+
+.editor .placeholder {
+   color: rgba(0,0,0,0.6);
+}
+
+/* BUTTONS */
+
+.btn {
+   padding: 15px;
+   margin: 0 5px 5px 5px;
+   text-align: center;
+   color: rgb(225, 240, 248);
+
+   border-radius: 5px;
+   background-color: #2e353b;
+
+   box-shadow: 0 3px #2b32386b;
+   transition: background-color 0.5s ease
+}
+
+.btn:hover {
+   background-color: #FE5F55;
+   cursor: pointer;
+}
+
+
